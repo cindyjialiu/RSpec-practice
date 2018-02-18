@@ -1,0 +1,6 @@
+require 'rake/rspec'
+task default: %w[all]
+
+task :test do
+  rspec
+end
